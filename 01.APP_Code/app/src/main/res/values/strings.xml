@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">吃饭啦</string>
+
+    <string name="title_data">定时</string>
+    <string name="title_control">添加</string>
+    <string name="title_set">我的</string>
+    <string name="configuring_message">正在配置中...</string>
+    <string name="wifi_5g_message">Device don\'t support 5G Wifi, please make sure the currently connected Wifi is 2.4G</string>
+    <string name="location_disable_message">Location(GPS) is disable</string>
+    <string name="no_wifi_connection">No Wifi connection</string>
+    <string name="configure_wifi_change_message">Wifi disconnected or changed</string>
+    <string name="configure_result_failed">EspTouch failed</string>
+    <string name="configure_result_failed_port">配置失败，请重新配置</string>
+    <string name="configure_result_success">配置完成</string>
+    <string name="configure_wifi">设备配网</string>
+    <string name="configure_result_success_item">当前硬件设备已连接到网络</string>
+</resources>

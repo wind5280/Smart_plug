@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.breakfast.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_date"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择日期:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ededed"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_time"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择时间:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ededed"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置时长:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/set_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入定时时长"
+            android:inputType="number"
+            android:background="#ededed"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        >
+
+        <Button
+            android:id="@+id/set_time"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_set"
+            android:text="设定"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+<TextView
+    android:id="@+id/text_in"
+    android:layout_marginTop="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+
+    />
+
+    <TextView
+        android:id="@+id/check"
+        android:layout_marginTop="30dp"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="设备不在线"
+
+        />
+
+</LinearLayout>

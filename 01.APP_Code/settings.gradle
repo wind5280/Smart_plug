@@ -1,0 +1,3 @@
+include ':app', ':myesptouch', ':OneNet-sdk'
+rootProject.name='breakfast'
+project(':myesptouch').projectDir = new File('esptouch')

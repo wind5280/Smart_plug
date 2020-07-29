@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <EditText
+            android:id="@+id/username"
+            android:background="@drawable/user_intput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="输入用户名"
+            android:inputType="text"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+        <EditText
+            android:id="@+id/password1"
+            android:background="@drawable/user_intput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="输入密码"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+        <EditText
+            android:id="@+id/password2"
+            android:background="@drawable/user_intput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="再次输入密码"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/login_set"
+        android:id="@+id/resiger_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#FFFFFF"
+        android:text="注册"
+        />
+
+
+</LinearLayout>

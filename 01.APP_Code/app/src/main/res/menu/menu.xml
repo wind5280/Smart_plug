@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/config_menu"
+        android:title="设备配网"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/config_device"
+        android:title="设备绑定"
+        app:showAsAction="never"/>
+
+
+</menu>
